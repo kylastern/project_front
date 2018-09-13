@@ -1,0 +1,292 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+
+/* global */
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* header */
+
+
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 5px solid #e8491d;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+
+/* showcase */
+
+
+#showcase{
+    min-height: 400px;
+    background: url('../img/showcase.jpg') no-repeat -100px -450px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+
+/* small */ 
+
+
+#small{
+    padding: 15px;
+    background: #35424a;
+}
+
+
+/* boxes */
+
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+
+/* sidebar */
+
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+/* main col */
+
+
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+
+/* sensors */
+
+
+#sensors{
+    margin-top: 20px;
+}
+
+#sensors .sensor{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+
+/* formula */
+
+
+#formula{
+    margin-top: 10px;
+}
+
+#formula .login-page{
+    width: 360px;
+    padding: 10px;
+    margin: auto;
+}
+
+#formula .form{
+    position: relative;
+    z-index: 1;
+    background: #35424a;
+    max-width: 360px;
+    padding: 45px;
+    text-align: center;
+}
+
+#formula .form input{
+    outline: 1;
+    background: #ffffff;
+    width: 100%;
+    border: 0px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+#formula .form button{
+    text-transform: uppercase;
+    outline: 0;
+    background: #e8491d;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#formula .form button:hover,.form button:active{
+    background: #df542d;
+}
+
+#formula .message{
+    font-size: 13px;
+    color: #ffffff;
+}
+
+#formula .form .message a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#formula .form .message:hover a{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+#formula .register-form{
+    display: none;
+}
+
+
+/* footer */
+
+
+footer{
+    
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+
+/* media q */
+
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+header{
+    padding-bottom: 20px;
+}
+
+#showcase h1{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
